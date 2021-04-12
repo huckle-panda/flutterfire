@@ -14,8 +14,4 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-part 'src/barcode_detector.dart';
-part 'src/face_detector.dart';
-part 'src/firebase_vision.dart';
-part 'src/image_labeler.dart';
 part 'src/text_recognizer.dart';
