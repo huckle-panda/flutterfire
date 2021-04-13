@@ -49,29 +49,7 @@ class FirebaseVision {
   /// ```
   static final FirebaseVision instance = FirebaseVision._();
 
-  /// Creates an instance of [BarcodeDetector].
-  BarcodeDetector barcodeDetector([BarcodeDetectorOptions options]) {
-    return BarcodeDetector._(
-      options ?? const BarcodeDetectorOptions(),
-      nextHandle++,
-    );
-  }
 
-  /// Creates an instance of [FaceDetector].
-  FaceDetector faceDetector([FaceDetectorOptions options]) {
-    return FaceDetector._(
-      options ?? const FaceDetectorOptions(),
-      nextHandle++,
-    );
-  }
-
-  /// Creates an on device instance of [ImageLabeler].
-  ImageLabeler imageLabeler([ImageLabelerOptions options]) {
-    return ImageLabeler._(
-      options: options ?? const ImageLabelerOptions(),
-      handle: nextHandle++,
-    );
-  }
 
   /// Creates an instance of [TextRecognizer].
   TextRecognizer textRecognizer() {
