@@ -14,4 +14,5 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+part 'src/firebase_vision.dart';
 part 'src/text_recognizer.dart';
